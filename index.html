@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Ubuntu:wght@300;400;700&family=Viaoda+Libre&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Ubuntu:wght@300;400;700&family=Viaoda+Libre&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="css/estilo.css">
     <title>Projeto Aprenser</title>
@@ -26,7 +28,7 @@
 
     <section class="hero">
         <article class="hero-content">
-            <h1 class="content-title"> O saber é o que transforma nosso SER</h1>
+            <h1> O saber é o que transforma nosso SER</h1>
             <p><a href="#">Saiba mais</a></p>
         </article>
 
@@ -36,34 +38,40 @@
     <section class="container">
         <h2>Principais Cursos</h2>
 
-        <article class="container-content">
-            <img src="imagens/curso-design.png" alt="Designer Web">
-            <p>Designer para Web</p>
-            <p>O curso Design para Web é perfeito para aqueles que desejam aprender a criar designs atraentes e
-                funcionais para sites e aplicativos móveis.
-            </p>
-        </article>
+        <div class="container-content">
+            <article class="container-cards">
+                <img src="imagens/curso-design.png" alt="Designer Web">
+                <p class="cards-title">Designer para Web</p>
+                <p class="cards-content">O curso Design para Web é perfeito para aqueles que desejam aprender a criar designs atraentes e
+                    funcionais para sites e aplicativos móveis.
+                </p>
+            </article>
 
-        <article class="container-content">
-            <img src="imagens/curso-design-1.png" alt="Front End Developer">
-            <p>Front End Developer</p>
-            <p>Aprenda HTML, CSS e Javascript e crei interfaces ricas e semânticas para páginas web, aplicativos on-line
-                ou até mesmo aplicações para aparelhos celulares
-            </p>
-        </article>
+            <article class="container-cards">
+                <img src="imagens/curso-design-1.png" alt="Front End Developer">
 
-        <article class="container-content">
-            <img src="imagens/curso-design-2.png" alt="Back End Developer">
-            <p>Back End Developer</p>
-            <p>Com este curso você vai dominar uma linguagem back-end a sua escolha, um sistema de banco de dados e
-                aprenderá como funciona o protocolo HTTP na prática.
-            </p>
-        </article>
+                <p class="cards-title">Front End Developer</p>
+                <p class="cards-content">Aprenda HTML, CSS e Javascript e crei interfaces ricas e semânticas para páginas web, aplicativos
+                    on-line
+                    ou até mesmo aplicações para aparelhos celulares
+                </p>
+            </article>
+
+            <article class="container-cards">
+                <img src="imagens/curso-design-2.png" alt="Back End Developer">
+                <p class="cards-title">Back End Developer</p>
+                <p class="cards-content">Com este curso você vai dominar uma linguagem back-end a sua escolha, um sistema de banco de dados e
+                    aprenderá como funciona o protocolo HTTP na prática.
+                </p>
+            </article>
+        </div>
+        <p class="container-btn"><a href="#">Ver mais cursos</a></p>
     </section>
 
     <section class="about">
+        <img src="imagens/nossa-escola.png" alt="Estudante utilizando o notebook">
+
         <article class="about-content">
-            <img src="imagens/nossa-escola.png" alt="Estudante utilizando o notebook">
             <h2>Nossa escola</h2>
             <p>Aprenda habilidades tecnológicas em demanda e alcance seus objetivos de carreira com a nossa escola de
                 tecnologia online. Oferecemos uma ampla gama de cursos online, desde programação e desenvolvimento de
@@ -75,11 +83,13 @@
     </section>
 
     <section class="contact">
+        <article class="contact-container">
         <h2>Contatos</h2>
         <img src="imagens/map.png" alt="Localizacao">
         <p>Av. da Liberdade, 1001<br>
             Tel.: +351 21 123 456<br>
             E-mail: contato@aprenser.com</p>
+        </article>
     </section>
 
     <footer class="rodape">
